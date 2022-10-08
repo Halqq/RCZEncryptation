@@ -3,7 +3,7 @@ RCZ Encrypt uses maps to encrypt your string
 
 This use random chars bytes to transforme one char
 
-[A] -> [65] -> b -> [98]
+[A] -> [65] -> b -> [98] + 前今&前u@ == 8前9今&前u8@
 
 and this put random bytes converted into string
 
