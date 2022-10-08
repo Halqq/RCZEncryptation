@@ -18,7 +18,7 @@ public class RCZMapping {
         INSTANCE = this;
     }
 
-    public static String revertBytes(String input) {
+    public String revertBytes(String input) {
 
         return input.replace("97", "a").replace("98", "b").replace("99", "c").
                 replace("100", "d").replace("101", "e").replace("102", "f").
@@ -40,7 +40,7 @@ public class RCZMapping {
                 replace("90", "Z");
     }
 
-    public static String revertMap(String input) {
+    public String revertMap(String input) {
 
         return input.replace("b", "A").replace("z", "B").replace("f", "C").
                 replace("f", "C").replace("n", "D").replace("o", "E").replace("r", "F").
@@ -58,7 +58,7 @@ public class RCZMapping {
                 replace("H", "y").replace("A", "w").replace("S", "x").replace("G", "z");
     }
 
-    public static List<String> japaneseChar() {
+    public List<String> japaneseChar() {
 
         stringList.add("前今&前u@");
         stringList.add("円後語前7*");
@@ -96,7 +96,7 @@ public class RCZMapping {
         return stringList;
     }
 
-    public static String randomAlphabet() {
+    public String randomAlphabet() {
 
         int characters = 1;
         String name = "";
@@ -108,7 +108,7 @@ public class RCZMapping {
         return name;
     }
 
-    void res() {
+    public void res() {
         byteHashMap.put("A", Arrays.toString("b".getBytes()));
         byteHashMap.put("B", Arrays.toString("z".getBytes()));
         byteHashMap.put("C", Arrays.toString("f".getBytes()));
