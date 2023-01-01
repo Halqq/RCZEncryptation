@@ -1,3 +1,7 @@
+abandoned project
+
+continuation : [RCZ CONTINUATION](https://github.com/Halqq/RCZEncryptationKT)
+
 # RCZEncryptation
 RCZ Encrypt uses maps to encrypt your string
 
